@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282D35;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 10px 20px;
+}
+
+.navbar>h3{
+  margin-right: auto;
+  color: #61DAFB;
+}
+
+.navbar>img{
+  width: 50px;
+  margin-right: 10px;
+}
+
+.nav-items{
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav-items h4{
+  padding-right: 20px;
+}
+
+.main{
+  padding: 50px 30px;
+  color: white;
+}
