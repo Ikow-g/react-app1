@@ -53,3 +53,20 @@ body{
 .subtitle, p{
   margin: 10px 0;
 }
+
+.footer{
+  bottom: 0;
+  position: fixed;
+}
+
+.footer-contact {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.footer-contact>li>button{
+  width: 2.5em;
+  height: 2em;
+}
