@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: black;
+  padding: 10px 2rem;
+}
+
+.info{
+  /* justify-content: center; */
+  text-align: center;
+  /* margin: 10px 3rem; */
+}
+
+.info>h3{
+  color: white;
+}
+
+.info>h4{
+  color: bisque;
+  font-style: italic;
+}
+
+.info>h5{
+  color: whitesmoke;
+}
+
+.info>h3, .info>h4, .info>h5{
+  margin: 10px 0;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+.email, .linkedin{
+  margin: 10px 5px;
+}
+
+.email>button, .linkedin>button{
+  font-size: 14px;
+  width: 7em;
+  height: 3em;
+  border-radius: 1em;
+  font-weight: 600;
+}
+
+.about, .interest{
+  color: white;
+  margin-top: 2em;
+}
+
+.subtitle, p{
+  margin: 10px 0;
+}
