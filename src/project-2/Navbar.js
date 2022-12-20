@@ -1,8 +1,8 @@
 function Navbar(){
   return(
-    <div className="Navbar">
-      <img src="" alt="logo"></img>
-    </div>
+    <nav>
+      <img src="" className="nav-logo"></img>
+    </nav>
   );
 }
 
