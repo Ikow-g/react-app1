@@ -1,20 +1,20 @@
-import "./project-1/style.css";
+import "./project-2/style.css";
 // import Navbar from "./components/Navbar"
 // import MainContent from "./components/MainContent"
-import Info from "./project-1/Info";
-import About from "./project-1/About";
-import Interest from "./project-1/Interest";
-import Footer from "./project-1/Footer";
+
+// project-1
+// import Info from "./project-1/Info";
+// import About from "./project-1/About";
+// import Interest from "./project-1/Interest";
+// import Footer from "./project-1/Footer";
+
+// project-2
+import Navbar from "./project-2/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Info />
-      <About />
-      <Interest />
-      <Footer />
-      {/* <Navbar></Navbar>
-      <MainContent></MainContent> */}
+      <Navbar />
       
     </div>
   );
